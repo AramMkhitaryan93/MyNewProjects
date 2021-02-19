@@ -15,5 +15,9 @@ public class Students {
         firstName = in.nextLine();
         System.out.println("My lastName is: ");
         lastName = in.nextLine();
+        System.out.println("My age is: ");
+        age = in.nextInt();
+        System.out.println("My specialty is: ");
+        specialty=in.nextLine();
     }
 }
